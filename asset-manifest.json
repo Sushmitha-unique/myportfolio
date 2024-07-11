@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.7281de51.css",
+    "main.js": "/myportfolio/static/js/main.cd605520.js",
+    "static/media/About.mp4": "/myportfolio/static/media/About.50baa1f7b2d579709a18.mp4",
+    "static/media/pharmacy.png": "/myportfolio/static/media/pharmacy.f8c3c0dafb5c6d84dfbe.png",
+    "static/media/chaiwala.png": "/myportfolio/static/media/chaiwala.f5c50153a0c15677270f.png",
+    "static/media/gtwebsite.png": "/myportfolio/static/media/gtwebsite.20d97da32c9a0e08bf94.png",
+    "static/media/ryor.png": "/myportfolio/static/media/ryor.69bead34e16fc9f516e9.png",
+    "static/media/ecommerce.png": "/myportfolio/static/media/ecommerce.abd292c0f1f5f5016ddd.png",
+    "static/media/21121A1215.JPG": "/myportfolio/static/media/21121A1215.72fb0a7597f0b52260d1.JPG",
+    "index.html": "/myportfolio/index.html",
+    "main.7281de51.css.map": "/myportfolio/static/css/main.7281de51.css.map",
+    "main.cd605520.js.map": "/myportfolio/static/js/main.cd605520.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7281de51.css",
+    "static/js/main.cd605520.js"
+  ]
+}
