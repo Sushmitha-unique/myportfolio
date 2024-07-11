@@ -1,0 +1,30 @@
+.about{
+    display: flex;
+    height: 100vh;
+    background:linear-gradient(250deg,rgb(61, 68, 142),rgb(16, 16, 16));   
+}
+.aboutleft{
+    height: 100hv;
+    width: 50%;
+}
+
+.aboutvideo{
+    height: 600px;
+    box-shadow: 2px 0px 2px white;
+    margin-top: 10%;
+    margin-left: 20%;
+    border-radius: 2px;
+}
+.aboutrighth1{
+    color:white;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.aboutrightp{
+    color:white;
+    font-size: 20px;
+    font-weight: 200;
+    opacity: 0.6;
+    text-align: justify;
+    margin-right: 25px;
+}

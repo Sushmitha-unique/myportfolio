@@ -1,0 +1,38 @@
+.skills{
+    display: flex;
+    height: 60vh;
+    background:linear-gradient(-250deg,rgb(61, 68, 142),rgb(16, 16, 16));
+}
+.skillsh1{
+color: white;
+font-size: 50px;
+font-weight: 400;
+margin-left: 150px;
+}
+.skillsleft{
+    width: 50%;
+    height: 50vh;
+}
+.skillsright{
+    width: 50%;
+    height: 50vh;
+    margin-top: 100px;
+}
+.skillsp{
+    color: white;
+    font-size: 30px;
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+}
+.skillsrp{
+    color: white;
+    font-size: 30px;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+}
+.fill{
+    color: white; 
+    font-size: 26px;
+}

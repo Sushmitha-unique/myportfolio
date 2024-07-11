@@ -1,0 +1,25 @@
+.projects{
+    display: flex;
+    height: 100vh;
+    background:linear-gradient(250deg,rgb(61, 68, 142),rgb(16, 16, 16));
+    justify-content: center;
+}
+.projectflex{
+    flex-direction: row;
+    justify-content: center;
+}
+.projectsh1{
+  position: absolute;
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+.swiperproject{
+    width: 600px;
+    height: 600px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+.projectright{
+    width: 80%; 
+}

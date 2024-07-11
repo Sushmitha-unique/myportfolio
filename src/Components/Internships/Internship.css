@@ -1,0 +1,49 @@
+.internship{
+    height: 60vh;
+    background:linear-gradient(-250deg,rgb(61, 68, 142),rgb(16, 16, 16));
+    display: flex;
+}
+.internshiph1{
+    color: white;
+font-size: 50px;
+font-weight: 400;
+margin-left: 150px;
+}
+.internshipflex{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.techynerves{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+   box-shadow: 2px 0 2px white;
+  border-radius: 10px ;
+    color: white;
+text-align: center;
+}
+.gangaaram{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    box-shadow: 2px 0 2px white;
+    border-radius: 10px ;
+      color: white;
+  text-align: center;
+}
+.techynerves h3{
+    opacity: 0.8;
+}
+.gangaaram h3{
+    opacity: 0.8;
+}
+.techynerves:hover{
+    box-shadow: 2px 0 2px gold;
+}
+.gangaaram:hover{
+    box-shadow: 2px 0 2px gold;
+}

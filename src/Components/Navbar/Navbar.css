@@ -1,0 +1,115 @@
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    background:linear-gradient(250deg,rgb(61, 68, 142),rgb(16, 16, 16));
+    padding: 10px 20px;
+    color: white; 
+  }
+  
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  .navbarlinks {
+    display: flex;
+    gap: 90px; /* Adjusted the gap */
+    margin-left: auto;
+  }
+  
+  .nav-item, .nav-registration, .nav-code {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .nav-item:hover, .nav-registration:hover, .nav-code:hover {
+    border-bottom: 1px solid #260988;
+  }
+  
+
+  
+  
+  .nav-item:after, .nav-registration:after, .nav-code:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #1e11cc;
+    transition: width 0.3s;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -2px;
+  }
+  
+  .nav-item:hover:after, .nav-registration:hover:after, .nav-code:hover:after {
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    .navbar-logo img {
+      height: 40px;
+    }
+  
+    .navbarlinks {
+      flex-direction: column;
+      gap: 10px;
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .nav-item,
+    .nav-registration,
+    .nav-code {
+      padding: 5px;
+    }
+  
+    .dropdown {
+      margin-top: 5px;
+    }
+  
+    .dropdown-content {
+      position: static;
+      box-shadow: none;
+      min-width: auto;
+    }
+  
+    .dropdown-content .dropdown-item {
+      padding: 8px 12px;
+    }
+  }
+  
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .navbarlinks {
+      display: none;
+    }
+  
+    .navbarlinks.show {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  
