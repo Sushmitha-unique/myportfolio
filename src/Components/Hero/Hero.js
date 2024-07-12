@@ -6,7 +6,7 @@ import { ImGithub } from "react-icons/im";
 import { SiLeetcode } from "react-icons/si";
 import { FaYoutube } from "react-icons/fa6";
 const Hero = () => {
-    const file = "https://drive.google.com/file/d/1crPpRuEoVeF0Bw6e-CZXL2JKUjNdxuB2/view";
+    const file = "https://drive.google.com/file/d/1crPpRuEoVeF0Bw6e-CZXL2JKUjNdxuB2/view?usp=sharing";
     const linkedin="https://www.linkedin.com/in/sushmitha-bujjireddy/";
     const github="https://github.com/Sushmitha-unique";
     const leetcode="https://leetcode.com/u/Sushmithabujjireddy/";
