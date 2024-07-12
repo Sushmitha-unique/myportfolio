@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 
@@ -20,12 +20,12 @@ const Navbar = () => {
       <div className={`navbarlinks ${isOpen ? 'show' : ''}`}>
         <Link to="/" className="nav-item" >Home</Link>
        
-        <Link to="/about" className="nav-registration">About</Link>
+        <Link to="about" smooth={true} duration={500} className="nav-registration">About</Link>
 
-        <Link to="/skills" className="nav-code">Skills</Link>
-        <Link to="/projects" className="nav-item">Projects</Link>
-        <Link to="/internship" className="nav-item">Internship</Link>
-        <Link to="/contact" className="nav-item">Contact</Link>
+        <Link to="skills" smooth={true} duration={500} className="nav-code">Skills</Link>
+        <Link to="projects" smooth={true} duration={500} className="nav-item">Projects</Link>
+        <Link to="internship" smooth={true} duration={500} className="nav-item">Internship</Link>
+        <Link to="contact" smooth={true} duration={500} className="nav-item">Contact</Link>
       </div>
       <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
